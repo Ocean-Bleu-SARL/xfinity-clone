@@ -1,0 +1,60 @@
+{
+    "NavBar": {
+        "ar": "Revendeur<br/>agréé",
+        "gh": "Assitance humaine 24/7",
+        "obBD": "Forfaits & offres",
+        "cs": "Service client",
+        "home": "Accueil",
+        "call": "Appelez"
+    },
+    "FindInternetComponent": {
+        "placeholder": "Rue, ville, region",
+        "find": "Rechercher des offres pour internet dans votre secteur",
+        "shop": "Se procurer internet"
+    },
+    "Common": {
+        "loading": "Chargement..."
+    },
+    "LocaleSwitcher": {
+        "en": "Anglais",
+        "fr": "Français"
+    },
+    "Footer": {
+        "moreInfo": "Pour plus d'informations sur les politiques et conditions de service d'Ocean Bleu, rendez-vous sur <a class='underline' href='ocean-bleu.net/policies'>ocean-bleu.net/policies.</a>",
+        "wifiClaims": "Réclamation WiFi basée sur une étude de mars 2016 par Allion Test Labs, Inc. de la performance du routeur.",
+        "prepaid": "*Carte prépayée envoyée au titulaire du compte Ocean Bleu dans les 18 semaines suivant l'activation de tous les services requis et expirant dans les 90 jours. Cartes prépayées émises par Citibank, N.A., conformément à une licence de U.S.A. Inc. et gérées par Citi Prepaid Services. Les cartes n'auront pas accès à l'argent et peuvent être utilisées partout où les cartes prépayées sont acceptées. Appelez pour des restrictions et des détails complets.",
+        "readMore": "Lire la suite",
+        "allRights": "© 2017 Ocean Bleu. Tous droits réservés."
+    },
+    "IndexPage": {
+        "greatDeal": "Obtenez une belle offre sur la fibre",
+        "priceNearYou": "Tarifs de la fibre pres de chez vous",
+        "placeholder": "Rue, ville, region",
+        "find": "Rechercher des offres pour internet dans votre secteur",
+        "shop": "Se procurer internet",
+        "gh": "Assitance humaine 24/7",
+        "ghd": "Nous vous aiderons a trouver la meilleure offre pour vous",
+        "call": "Appelez-nous"
+    },
+    "WifiOfferCard": {
+        "mostPopular": "Le plus populaire",
+        "bestValue": "Meilleur offre",
+        "startingAt": "À partir de",
+        "shop": "Se procurer internet"
+    },
+    "features": {
+        "ndevices": "Jusqu'à {n} appareils à la fois",
+        "12+devices": "12+ appreils a la fois",
+        "photo": "Téléchargez des photos et videos",
+        "conference": "Participez a vos appels video conference",
+        "showsQuickly": "Téléchargez rapidement des séries",
+        "HDStream": "Streamez en HD sur plusieurs appareils",
+        "streamExp": "Streamez avec l'expérience WiFi ultime",
+        "multiplayer": "Jeu multijoueur",
+        "largeFiles": "Téléchargez des émissions et des fichiers volumineux",
+        "streamMany": "Diffusez sur plusieurs appareils",
+        "unlimitedDevices": "Appareils illimités",
+        "speedStream": "Streamez a une vitesse extreme",
+        "heavyUsage": "Téléchargez du contenu tres volumineux"
+    }
+}

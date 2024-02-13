@@ -1,0 +1,60 @@
+{
+    "NavBar": {
+        "ar": "Authorized<br/>retailer",
+        "gh": "Get help from a human 24/7",
+        "obBD": "Bundles & Deals",
+        "cs": "Customer Service",
+        "home": "Home",
+        "call": "Call"
+    },
+    "FindInternetComponent": {
+        "placeholder": "Street, city, region",
+        "find": "Find internet deals in your area",
+        "shop": "Shop internet"
+    },
+    "Common": {
+        "loading": "Loading..."
+    },
+    "LocaleSwitcher": {
+        "en": "English",
+        "fr": "French"
+    },
+    "Footer": {
+        "moreInfo": "For information about Ocean Bleu policies and terms of service, go to <a class='underline' href='ocean-bleu.net/policies'>ocean-bleu.net/policies.</a>",
+        "wifiClaims": "WiFi claim based on March 2016 study by Allion Test Labs, Inc. of router performance.",
+        "prepaid": "*Prepaid card mailed to Comcast account holder within 18 weeks of activation of all required services and expires in 90 days. Prepaid cards issued by Citibank, N.A., pursuant to a license from U.S.A. Inc. and managed by Citi Prepaid Services. Cards will not have cash access and can be used everywhere Prepaid cards are accepted. Call for restrictions and complete details.",
+        "readMore": "Read more",
+        "allRights": "© 2017 Ocean Bleu. All rights reserved."
+    },
+    "IndexPage": {
+        "greatDeal": "Get a great deal on optic fiber",
+        "priceNearYou": "Ocean Bleu fiber price near you",
+        "placeholder": "Street, city, region",
+        "find": "Find internet deals in your area",
+        "shop": "Shop internet",
+        "gh": "Get help from a human 24/7",
+        "ghd": "We'll help you find the best deal for your home",
+        "call": "Call now"
+    },
+    "WifiOfferCard": {
+        "mostPopular": "Most popular",
+        "bestValue": "Best value",
+        "startingAt": "Starting at",
+        "shop": "Shop internet"
+    },
+    "features": {
+        "ndevices": "Up to {n} devices at a time",
+        "streamExp": "Stream with the ultimate WiFi experience",
+        "multiplayer": "Multiplayer gaming",
+        "largeFiles": "Download shows and large files",
+        "streamMany": "Stream on multiple devices",
+        "unlimitedDevices": "Unlimited devices",
+        "12+devices": "12+ devices at a time",
+        "photo": "Download music and photos",
+        "conference": "Stream content and video conferencing",
+        "showsQuickly": "Download shows quickly",
+        "HDStream": "Stream in HD on multiple devices",
+        "speedStream": "Stream with extreme speed",
+        "heavyUsage": "Download for heavy usage activities"
+    }
+}
