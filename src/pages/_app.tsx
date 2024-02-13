@@ -11,7 +11,7 @@ const OceanBleuApp: FC<AppProps> = ({ Component, pageProps }) => {
     return (
         <LangProvider>
             <MobileMenuProvider>
-                <div className="font-cabin text-sm container overflow-x-hidden">
+                <div className="font-cabin text-sm overflow-x-hidden">
                     <Component {...pageProps} />
                 </div>
             </MobileMenuProvider>
