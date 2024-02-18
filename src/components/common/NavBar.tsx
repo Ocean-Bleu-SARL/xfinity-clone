@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import LocaleSwitcher from '@/components/common/LocaleSwitcher';
 import MenuComponent from '@/components/mobile/MenuComponent';
+import PAGES from '@/config/routes';
 
 
 export interface MenuLinkProps {
@@ -23,15 +24,15 @@ const NavBar = () => {
 
   const links: MenuLinkProps[] = [
     {
-      href: '/',
+      href: PAGES.home,
       label: t('home')
     },
     {
-      href: '/bundles',
+      href: PAGES.bundles,
       label: t('obBD')
     },
     {
-      href: '/tv',
+      href: PAGES.tv,
       label: 'OB TV'
     },
     {
@@ -41,11 +42,11 @@ const NavBar = () => {
   ];
 
   return (
-    <header className='bg-primary py-3 md:py-4 px-[4%] md:px-[8%]'>
+    <header className='bg-primary py-3 md:py-4 px-[4%] md:px-outter'>
       <MenuComponent links={links} className={`${isOpen ? '' : 'hidden'}`} />
       <div className='flex justify-between items-center '>
         <div className='flex gap-2'>
-          <div className={`z-50 ${isOpen?'fixed top-2 right-2':''}`}><Hamburger onToggle={() => setOpen(!isOpen)} /></div>
+          <div className={`z-50 md:hidden ${isOpen?'fixed top-2 right-2':''}`}><Hamburger onToggle={() => setOpen(!isOpen)} /></div>
           <div className='flex gap-2 md:gap-4 items-center'>
             <h1 className='md:text-3xl font-bold font-crete '>OCEAN BLEU</h1>
             <div className='h-11 w-[1px] bg-white' />

@@ -5,7 +5,8 @@
         "obBD": "Bundles & Deals",
         "cs": "Customer Service",
         "home": "Home",
-        "call": "Call"
+        "call": "Call",
+        "moving": "Moving?"
     },
     "FindInternetComponent": {
         "placeholder": "Street, city, region",
@@ -22,7 +23,7 @@
     "Footer": {
         "moreInfo": "For information about Ocean Bleu policies and terms of service, go to <a class='underline' href='ocean-bleu.net/policies'>ocean-bleu.net/policies.</a>",
         "wifiClaims": "WiFi claim based on March 2016 study by Allion Test Labs, Inc. of router performance.",
-        "prepaid": "*Prepaid card mailed to Comcast account holder within 18 weeks of activation of all required services and expires in 90 days. Prepaid cards issued by Citibank, N.A., pursuant to a license from U.S.A. Inc. and managed by Citi Prepaid Services. Cards will not have cash access and can be used everywhere Prepaid cards are accepted. Call for restrictions and complete details.",
+        "prepaid": "*Prepaid card mailed to OceanBleu account holder within 18 weeks of activation of all required services and expires in 90 days. Prepaid cards issued by Citibank, N.A., pursuant to a license from U.S.A. Inc. and managed by Citi Prepaid Services. Cards will not have cash access and can be used everywhere Prepaid cards are accepted. Call for restrictions and complete details.",
         "readMore": "Read more",
         "allRights": "© 2017 Ocean Bleu. All rights reserved."
     },
@@ -35,6 +36,63 @@
         "gh": "Get help from a human 24/7",
         "ghd": "We'll help you find the best deal for your home",
         "call": "Call now"
+    },
+    "OceanBleuTvPage": {
+        "getUltimate": "Get the ultimate in entertainment",
+        "hundreds": "Hundreds of channels, thousands of hit movies and the most free ON Demand",
+        "shopOffer": "Shop offers",
+        "enjoy": "Enjoy live TV, On Demand, sports, and your favorite streaming apps all in one place!",
+        "enjoyText": "With OceanBleu TV you can enjoy shows and movies instantly on any screen, catch up on the latest episodes of TV’s hottest shows and even watch entire past seasons with OceanBleu On Demand. Plus you can watch your favorite networks live anytime, anywhere.",
+        "features": "OceanBleu TV Features",
+        "changeWay": "Change the way you experience entertainment with OceanBleu’s advanced TV features.",
+        "feature-1": "TV packages with over 185+ channels!",
+        "feature-2": "Premium channel add-on options",
+        "feature-3": "X1 Box + DVR—record up to 6 shows at once and get 500 GB of storage",
+        "feature-4": "X1 Voice Remote—to manage your OceanBleu WiFi, Voice and Home Security from your TV",
+        "feature-5": "OceanBleu Stream app, to access your entertainment on the go"
+    },
+    "HelpPage": {
+        "service": "Service help",
+        "serviceDesc": "Service Help for Current OceanBleu Customers",
+        "detail": "If you are currently a residential OceanBleu customer, please select the appropriate support desk’s contact details from the list below:"
+    },
+    "BundlesPage": {
+        "choose": "Choose from a range of fast, reliable Internet speeds and all the live TV, sports, and entertainment you love",
+        "liveTv": "Live TV, the best On Demand experience, fast speeds, and more",
+        "findBestPlan": "Find the best plan for you",
+        "saveBig": "Save big on fast, reliable Internet speeds and all the <br/> live TV, sports and entertainment you love with OceanBleu!",
+        "bundles": "Deals",
+        "bundlesText": "Save on reliably fast Internet and X1 TV, the ultimate entertainment experience. OceanBleu offers the best in-home WiFi and the most free TV shows and movies on the go. Plus, when you switch to OceanBleu you’ll also enjoy many more amazing features, like the X1 DVR, the X1 Voice Remote, online security, and millions of WiFi hotspots nationwide.",
+        "shopOffer": "Shop offer",
+        "speedUp": "Internet speeds up to 70 Mbps",
+        "tool-1": "xFi Gateway—an easy-to-use modem and router in one",
+        "tool-2": "xFi app—control your WiFi from anywhere",
+        "tool-3": "Millions of OceanBleu WiFi hotspots nationwide",
+        "tv-1": "TV packages with over 260+ channels",
+        "tv-2": "Premium channel add-on options",
+        "tv-3": "X1 Box + DVR—record up to 6 shows at once and get 500 GB of storage",
+        "tv-4": "X1 Voice Remote—to manage your OceanBleu WiFi, Voice and Home Security from your TV",
+        "tv-5": "OceanBleu Stream app, to access your entertainment on the go",
+        "features": "Features",
+        "switch": "Switch to OceanBleu, and get <span class='text-secondary'>the most advanced digital home features.</span>",
+        "voice": "Voice",
+        "security": "Home Security",
+        "voice-1": "Unlimited local and nationwide calling",
+        "voice-2": "Reliable service with the best call clarity",
+        "voice-3": "Advanced calling features, including Caller ID and Readable Voicemail",
+        "voice-4": "Customizable international calling options",
+        "voice-5": "OceanBleu Connect app, to manage your phone on the go",
+        "security-1": "24/7 professional security monitoring",
+        "security-2": "Battery and cellular backup included",
+        "security-3": "Fast response time from an award-winning monitoring station",
+        "security-4": "Arm, disarm and control your security system remotely",
+        "security-5": "Door and window sensors, motion sensors, touchscreen controller, and wireless keypad included",
+        "workBetterTogether": "Our services work even better together",
+        "Footer": {
+            "billing": "Billing or customer assistance",
+            "moving": "Moving",
+            "privacy": "Privacy policy"
+        }
     },
     "WifiOfferCard": {
         "mostPopular": "Most popular",

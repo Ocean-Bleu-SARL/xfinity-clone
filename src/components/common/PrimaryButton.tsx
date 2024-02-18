@@ -9,12 +9,14 @@ interface PrimaryButtonProps {
     textColor?: string;
 }
 
+const PrimaryButton: FC<PrimaryButtonProps> = ({ label, onClick, hoverable = false, className, ...props }) => {
+    const buttonColor = !!props.buttonColor ? props.buttonColor : 'secondary';
+    const textColor = !!props.textColor ? props.textColor : 'onSecondary';
+    const hoverStyle = `border border-${buttonColor} text-${buttonColor} hover:bg-${buttonColor} hover:text-${textColor}`;
+    const buttonStyle = `bg-${buttonColor} text-${textColor}`;
 
-const PrimaryButton: FC<PrimaryButtonProps> = ({ label, onClick, hoverable, className, ...props }) => {
-    const color = props.buttonColor ? props.buttonColor : 'secondary';
-    const textColor = props.textColor ? props.textColor : 'onSecondary';
     return (
-        <button onClick={onClick} className={`${className} ${hoverable ? `border border-${color} text-${color} hover:text-${textColor} hover:bg-${color} hover:border-0` : `bg-${color} text-${textColor}`} w-full px-16  rounded-full font-bold py-3`}>{label}</button>
+        <button onClick={onClick} className={`${className} ${hoverable ? hoverStyle : buttonStyle} w-full px-16 rounded-full font-bold py-3`}>{label}</button>
     );
 };
 

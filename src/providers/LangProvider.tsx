@@ -19,6 +19,7 @@ const LangProvider: FC<LangProviderProps> = ({ children }) => {
   };
 
   const syncLang = async (newLang?: string | null) => {
+    const localStorage = window.localStorage;
     const lang = newLang ?? localStorage.getItem('lang') ?? storedLanguage;
     const data = await getMessages(lang);
     setMessages(data);
@@ -30,7 +31,6 @@ const LangProvider: FC<LangProviderProps> = ({ children }) => {
   };
 
   useEffect(() => {
-    const localStorage = window.localStorage;
     syncLang();
     window.addEventListener('storage', handleLangChange);
     return () => window.removeEventListener('storage', handleLangChange);

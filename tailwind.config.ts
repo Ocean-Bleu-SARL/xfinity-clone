@@ -10,12 +10,15 @@ const config: Config = {
     extend: {
       screens: {
         mmd: { max: "768px" },
-        mlg: { max: "1280px" },
+        mlg: { min: "768px", max: "1280px" },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      padding: {
+        "outter": "8%",
       },
       colors: {
         primary: '#000000',

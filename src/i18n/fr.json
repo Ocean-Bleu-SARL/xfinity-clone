@@ -5,7 +5,8 @@
         "obBD": "Forfaits & offres",
         "cs": "Service client",
         "home": "Accueil",
-        "call": "Appelez"
+        "call": "Appelez",
+        "moving": "Déménagement?"
     },
     "FindInternetComponent": {
         "placeholder": "Rue, ville, region",
@@ -25,6 +26,63 @@
         "prepaid": "*Carte prépayée envoyée au titulaire du compte Ocean Bleu dans les 18 semaines suivant l'activation de tous les services requis et expirant dans les 90 jours. Cartes prépayées émises par Citibank, N.A., conformément à une licence de U.S.A. Inc. et gérées par Citi Prepaid Services. Les cartes n'auront pas accès à l'argent et peuvent être utilisées partout où les cartes prépayées sont acceptées. Appelez pour des restrictions et des détails complets.",
         "readMore": "Lire la suite",
         "allRights": "© 2017 Ocean Bleu. Tous droits réservés."
+    },
+    "HelpPage": {
+        "service": "Service d'assistance",
+        "serviceDesc": "Service d'assistance pour les clients OcaenBleu",
+        "detail": "Si vous etes un client de OcanBleu, veuillez choisir le contact approprie pour obtenir de l'aide selon votre probleme"
+    },
+    "BundlesPage": {
+        "choose": "Choisissez parmi une gamme de vitesses Internet rapides et fiables et tous les programmes TV en direct, le sport et le divertissement que vous aimez",
+        "liveTv": "TV en direct, la meilleure expérience à la demande, des vitesses rapides et plus",
+        "findBestPlan": "Trouvez le meilleur plan pour vous",
+        "saveBig": "Économisez gros sur des vitesses Internet rapides et fiables et tous les <br/> programmes TV en direct, le sport et le divertissement que vous aimez avec Ocean Bleu!",
+        "bundles": "Offres",
+        "bundlesText": "Économisez sur des vitesses Internet fiables et la TV X1, la meilleure expérience de divertissement. Ocean Bleu offre le meilleur WiFi à domicile et la plupart des émissions de télévision et des films gratuits en déplacement. De plus, lorsque vous passez à Ocean Bleu, vous profiterez également de nombreuses autres fonctionnalités incroyables, comme le X1 DVR, la télécommande vocale X1, la sécurité en ligne et des millions de hotspots WiFi dans tout le pays.",
+        "shopOffer": "Acheter l'offre",
+        "speedUp": "Vitesses Internet jusqu'à 70 Mbps",
+        "tool-1": "Passerelle xFi - un modem et un routeur faciles à utiliser en un",
+        "tool-2": "Application xFi - contrôlez votre WiFi de n'importe où",
+        "tool-3": "Des millions de hotspots WiFi OceanBleu dans tout le pays",
+        "tv-1": "Forfaits TV avec plus de 260+ chaînes",
+        "tv-2": "Options d'ajout de chaînes premium",
+        "tv-3": "X1 Box + DVR - enregistrez jusqu'à 6 émissions à la fois et obtenez 500 Go de stockage",
+        "tv-4": "Télécommande vocale X1 - pour gérer votre WiFi, votre voix et votre sécurité domestique depuis votre téléviseur",
+        "tv-5": "Application OceanBleu Stream, pour accéder à votre divertissement en déplacement",
+        "features": "Caractéristiques",
+        "switch": "Passez à Ocean Bleu et obtenez <span class='text-secondary'>les fonctionnalités numériques les plus avancées pour la maison.</span>",
+        "voice": "Voix",
+        "security": "Sécurité à domicile",
+        "voice-1": "Appels locaux et nationaux illimités",
+        "voice-2": "Service fiable avec la meilleure clarté d'appel",
+        "voice-3": "Fonctionnalités d'appel avancées, y compris l'identification de l'appelant et la messagerie vocale lisible",
+        "voice-4": "Options d'appel international personnalisables",
+        "voice-5": "Application OceanBleu Connect, pour gérer votre téléphone en déplacement",
+        "security-1": "Surveillance de sécurité professionnelle 24/7",
+        "security-2": "Sauvegarde de batterie et cellulaire incluse",
+        "security-3": "Temps de réponse rapide d'une station de surveillance primée",
+        "security-4": "Armez, désarmez et contrôlez votre système de sécurité à distance",
+        "security-5": "Détecteurs de porte et de fenêtre, détecteurs de mouvement, contrôleur à écran tactile et clavier sans fil inclus",
+        "workBetterTogether": "Nos services fonctionnent encore mieux ensemble",
+        "Footer": {
+            "billing": "Facturation ou assistance client",
+            "moving": "Déménagement",
+            "privacy": "Politique de confidentialité"
+        }
+    },
+    "OceanBleuTvPage": {
+        "getUltimate": "Obtenez l'ultime en divertissement",
+        "hundreds": "Des centaines de chaînes, des milliers de films à succès et le plus de contenu gratuit à la demande",
+        "shopOffer": "Acheter l'offre",
+        "enjoy": "Profitez de la télévision en direct, à la demande, du sport et de vos applications de streaming préférées, le tout au même endroit!",
+        "enjoyText": "Avec OceanBleu TV, vous pouvez profiter de spectacles et de films instantanément sur n'importe quel écran, rattraper les derniers épisodes des émissions les plus populaires de la télévision et même regarder des saisons entières passées avec OceanBleu à la demande. De plus, vous pouvez regarder vos réseaux préférés en direct à tout moment, n'importe où.",
+        "features": "Caractéristiques de OceanBleu TV",
+        "changeWay": "Changez la façon dont vous vivez le divertissement avec les fonctionnalités TV avancées d'OceanBleu.",
+        "feature-1": "Forfaits TV avec plus de 185+ chaînes!",
+        "feature-2": "Options d'ajout de chaînes premium",
+        "feature-3": "X1 Box + DVR—enregistrez jusqu'à 6 émissions à la fois et obtenez 500 Go de stockage",
+        "feature-4": "Télécommande vocale X1—pour gérer votre WiFi, votre voix et votre sécurité domestique depuis votre téléviseur",
+        "feature-5": "Application OceanBleu Stream, pour accéder à votre divertissement en déplacement"
     },
     "IndexPage": {
         "greatDeal": "Obtenez une belle offre sur la fibre",
