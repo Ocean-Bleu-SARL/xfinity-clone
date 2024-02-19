@@ -28,7 +28,7 @@ const BundlesPage: NextPage = () => {
           <p className="text-thirth font-bold text-3xl md:w-2/3 tracking-wider text-overflow-wrap mb-3">{t('choose')}</p>
           <p className='font-medium mmd:mb-6'>{t('liveTv')}</p>
         </div>
-        <FindBestPlanCard className='md:w-1/2' />
+        <FindBestPlanCard className='md:w-1/2' green/>
       </div>
 
       
@@ -97,7 +97,7 @@ const BundlesPage: NextPage = () => {
             t('voice-3'),
             t('voice-4'),
             t('voice-5'),
-          ]} image='img-4.png' background='[#1F69FF]' title={t('voice')} />
+          ]} image='img-4.png' green={false} title={t('voice')} />
 
           <FeatureRectangle features={[
             t('security-1'),
@@ -105,7 +105,7 @@ const BundlesPage: NextPage = () => {
             t('security-3'),
             t('security-4'),
             t('security-5')
-          ]} image='img-5.png' background='thirth' title={t('security')} />
+          ]} image='img-5.png' green title={t('security')} />
 
         </div>
       </div>

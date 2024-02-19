@@ -6,16 +6,15 @@ interface FeatureRectangleProps {
     features: string[];
     /* The value will be concatanated to /assets/images/ */
     image: string;
-    background: string;
+    green: boolean;
     title: string;
 }
 
-const FeatureRectangle: FC<FeatureRectangleProps> = ({ className, title, features, image, background }) => {
-    const bg = `bg-${background}`;
+const FeatureRectangle: FC<FeatureRectangleProps> = ({ className, title, features, image, green }) => {
     const t = useTranslations('BundlesPage');
 
     return (
-        <div className={`${className} relative w-[90%] md:w-[35%] h-[900px] rounded-xl ${bg} text-white py-8`}>
+        <div className={`${className} relative w-[90%] md:w-[35%] h-[900px] x   rounded-[5%] ${green?'bg-thirth':'bg-[#1F69FF]'} text-white py-8`}>
             <h1 className='font-bold text-2xl text-center '>{title}</h1>
             <ul className='font-medium tracking-wider leading-8 text-lg mt-6 px-[10%] md:px-[6%] flex flex-col gap-1'>
                 {
