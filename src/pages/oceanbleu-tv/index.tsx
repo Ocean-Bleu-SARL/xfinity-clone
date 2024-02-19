@@ -17,7 +17,7 @@ const OceanBleuTvPage: NextPage = () => {
                     <p className="text-secondary font-bold text-3xl md:w-2/3 tracking-wider text-overflow-wrap mb-3">{t('getUltimate')}</p>
                     <p className='font-medium mmd:mb-6'>{t('hundreds')}</p>
                 </div>
-                <FindBestPlanCard className='md:w-1/2' color='secondary' />
+                <FindBestPlanCard className='md:w-1/2' green={false} />
             </div>
 
 
