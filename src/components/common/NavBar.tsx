@@ -42,7 +42,7 @@ const NavBar = () => {
   ];
 
   return (
-    <header className='bg-primary py-3 md:py-4 px-[4%] md:px-outter'>
+    <header className='bg-primary text-white py-3 md:py-4 px-[4%] md:px-outter'>
       <MenuComponent links={links} className={`${isOpen ? '' : 'hidden'}`} />
       <div className='flex justify-between items-center '>
         <div className='flex gap-2'>

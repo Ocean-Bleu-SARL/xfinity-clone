@@ -7,7 +7,7 @@ const Footer = () => {
   const u = useTranslations('');
 
   return (
-    <div className='py-7 h-fit w-full bg-primary px-[4%] md:px-outter flex mmd:flex-col md:justify-between'>
+    <div className='py-7 h-fit text-white w-full bg-primary px-[4%] md:px-outter flex mmd:flex-col md:justify-between'>
       <div className='md:w-3/5 mmd:order-2'>
         <p className='mb-5' dangerouslySetInnerHTML={{ __html: t.raw('moreInfo') }} />
         <p className='mb-5'>{t('wifiClaims')}</p>
