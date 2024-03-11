@@ -7,7 +7,7 @@ interface AuthProviderProps {
 
 interface AuthContextType {
     user?: User;
-    setUser: React.Dispatch<React.SetStateAction<User>>;
+    setUser: React.Dispatch<React.SetStateAction<User | undefined>>;
 }
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
@@ -22,7 +22,7 @@ export const useAuth = () => {
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     // State to track whether the mobile menu is open or closed
-    const [user, setUser] = useState<User|undefined>(undefined);
+    const [user, setUser] = useState<User | undefined>(undefined);
 
     // Create the context value object
     const contextValue: AuthContextType = {
