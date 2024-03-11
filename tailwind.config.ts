@@ -20,6 +20,9 @@ const config: Config = {
       padding: {
         "outter": "8%",
       },
+      fontSize: {
+        xsm: '10px'
+      },
       colors: {
         primary: '#000000',
         secondary: '#6138F5',

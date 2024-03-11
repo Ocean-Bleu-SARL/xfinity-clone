@@ -28,7 +28,7 @@ const WifiOfferCard: FC<WifiOfferCardProps> = (props) => {
         {props.features.length > 0 && <ul className='mt-8 mmd:hidden'>
           {props.features.map((feature, index) => <li key={index} className='my-3 flex gap-3'><MdDone className='text-secondary' size={18} /> {feature}</li>)}
         </ul>}
-        <PrimaryButton label={t('shop')} hoverable className='mt-10 py-[9px] mmd:hidden' buttonColor={props.buttonColor} textColor={props.buttonTextColor}/>
+        <PrimaryButton label={t('shop')} hoverable className='mt-10 py-[9px] mmd:hidden' buttoncolor={props.buttonColor} textcolor={props.buttonTextColor}/>
         <Link href={``} className='md:hidden text-thirth mt-5 font-semibold flex gap-2 items-center'>{t('shop')} <BsArrowRight /> </Link>
       </div>
     </div>

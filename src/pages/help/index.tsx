@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import React from 'react';
-import MainLayout from '../layout';
+import MainLayout from '../../components/layouts/MainLayout';
 import { useTranslations } from 'next-intl';
 import FaqTile from '@/components/pages/faq/FaqTile';
 

@@ -5,8 +5,27 @@
         "obBD": "Bundles & Deals",
         "cs": "Customer Service",
         "home": "Home",
+        "account": "My account",
         "call": "Call",
         "moving": "Moving?"
+    },
+    "Auth": {
+        "RegistrationPage": {
+            "register": "Register",
+            "alreadyHaveAccount": "Already have an account?",
+            "login": "Log in",
+            "password": "Password",
+            "orRegisterUsing": "Or register using",
+            "phoneNumber": "Numero de telephone"
+        },
+        "AuthenticationPage": {
+            "login": "Log in",
+            "dontHaveAccount": "Don't have an account?",
+            "createAccount": "Create account",
+            "password": "Password",
+            "orRegisterUsing": "Or register using",
+            "phoneNumber": "Numero de telephone"
+        }
     },
     "FindInternetComponent": {
         "placeholder": "Street, city, region",

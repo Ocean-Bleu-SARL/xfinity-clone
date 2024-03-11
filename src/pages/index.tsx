@@ -1,5 +1,4 @@
 import React from 'react';
-import MainLayout from '@/pages/layout';
 import FindInternetCard from '@/components/pages/home/FindInternetCard';
 import { useTranslations } from 'next-intl';
 import { NextPage } from 'next';
@@ -7,6 +6,7 @@ import WifiOfferCard from '@/components/pages/home/WifiOfferCard';
 import Input from '@/components/common/Input';
 import PrimaryButton from '@/components/common/PrimaryButton';
 import { PiPhone } from 'react-icons/pi';
+import MainLayout from '@/components/layouts/MainLayout';
 
 const IndexPage: NextPage = () => {
 
@@ -27,7 +27,7 @@ const IndexPage: NextPage = () => {
         <FindInternetCard className='ml-[10%] mmd:hidden' />
         <div className='md:hidden px-[5%]'>
           <h1 className='mmd:text-3xl text-4xl font-bold mb-10 md:mb-12'>{t('find')}</h1>
-          <Input label={t('placeholder')} className='mb-5' contained inputClassName='bg-white rounded-md h-16' />
+          <Input label={t('placeholder')} className='mb-5' contained inputclassname='bg-white rounded-md h-16' />
           <PrimaryButton label={t('shop')} className='text-lg mb-4 py-4' />
         </div>
       </div>

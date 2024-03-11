@@ -15,7 +15,7 @@ const FindInternetCard: FC<FindInternetCardProps> = ({ className }) => {
     return (
         <div className={` ${className} flex flex-col w-[480px] px-14 py-10 shadow-md rounded-xl  bg-white`}>
             <h1 className='text-4xl font-bold mb-12'>{t('find')}</h1>
-            <Input label={t('placeholder')} className='mb-5' inputClassName='rounded-md h-14' />
+            <Input label={t('placeholder')} className='mb-5' inputclassname='rounded-md h-14' />
             <PrimaryButton label={t('shop')} className='text-lg mb-4 py-4'/>
             <div className=''>
                 <div className='flex gap-2 items-center mb-2'>

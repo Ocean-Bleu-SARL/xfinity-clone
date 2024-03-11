@@ -1,48 +1,50 @@
-import React, { FC, ReactNode, useEffect, useState } from 'react';
-import { AbstractIntlMessages, NextIntlClientProvider } from 'next-intl';
+import { FC, ReactNode, useState, useEffect, useMemo } from 'react';
+import { NextIntlClientProvider, AbstractIntlMessages } from 'next-intl';
 import LoadingPage from '@/components/common/LoadingPage';
 
-interface LangProviderProps {
-  children: ReactNode;
-}
-const LangProvider: FC<LangProviderProps> = ({ children }) => {
-  const [messages, setMessages] = useState<AbstractIntlMessages | undefined>();
-  const [storedLanguage, setSoredLanguage] = useState(() => {
-    const systemLang = Intl.DateTimeFormat().resolvedOptions().locale ?? navigator.language ?? 'en';
+const LangProvider: FC<{ children: ReactNode; }> = ({ children }) => {
+	const [messages, setMessages] = useState<AbstractIntlMessages | undefined>();
+	const defaultLang = useMemo<'fr' | 'en'>(() => {
+		const systemLang = Intl.DateTimeFormat().resolvedOptions().locale ?? navigator.language ?? 'en';
 
-    return systemLang.startsWith('fr') ? 'fr' : 'en';
-  });
+		return systemLang.startsWith('fr') ? 'fr' : 'en';
+	}, [Intl.DateTimeFormat().resolvedOptions().locale, navigator.language]);
 
-  const getMessages = async (locale: string): Promise<AbstractIntlMessages> => {
-    const messages = (await import(`@/i18n/${locale}.json`)).default;
-    return messages;
-  };
+	const [storedLanguage, setStoredLanguage] = useState<string>(defaultLang);
 
-  const syncLang = async (newLang?: string | null) => {
-    const localStorage = window.localStorage;
-    const lang = newLang ?? localStorage.getItem('lang') ?? storedLanguage;
-    const data = await getMessages(lang);
-    setMessages(data);
-    setSoredLanguage(lang);
-  };
+	const getMessages = async (locale: string): Promise<AbstractIntlMessages> => {
+		return (await import(`@/i18n/${locale}.json`)).default;
+	};
 
-  const handleLangChange = (e: StorageEvent) => {
-    if (e.key === 'lang') syncLang(e.newValue);
-  };
+	useEffect(() => {
+		const localStorage = window.localStorage;
 
-  useEffect(() => {
-    syncLang();
-    window.addEventListener('storage', handleLangChange);
-    return () => window.removeEventListener('storage', handleLangChange);
-  }, []);
+		const syncLang = async (newLang?: string | null) => {
+			const lang = newLang ?? localStorage.getItem('lang') ?? storedLanguage;
+			const data = await getMessages(lang);
 
-  useEffect(() => { }, [messages]);
+			setMessages(data);
+			setStoredLanguage(lang);
+		};
 
-  return (
-    <NextIntlClientProvider locale={storedLanguage} messages={messages}>
-      {messages ? children : <LoadingPage />}
-    </NextIntlClientProvider>
-  );
+		const handleLangChange = (ev: StorageEvent) => {
+			if (ev.key === 'lang') syncLang(ev.newValue);
+		};
+
+		syncLang();
+		window.addEventListener('storage', handleLangChange);
+
+		return () => window.removeEventListener('storage', handleLangChange);
+	}, []);
+
+	// Update app when messages load
+	useEffect(() => { }, [messages]);
+
+	return (
+		<NextIntlClientProvider locale={defaultLang} messages={messages}>
+			{messages ? children : <LoadingPage />}
+		</NextIntlClientProvider>
+	);
 };
 
 export default LangProvider;

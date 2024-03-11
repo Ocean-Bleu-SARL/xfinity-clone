@@ -2,10 +2,10 @@ import FindBestPlanCard from '@/components/pages/bundles/FindBestPlanCard';
 import { NextPage } from 'next';
 import { useTranslations } from 'next-intl';
 import React from 'react';
-import MainLayout from '@/pages/layout';
 import FeatureRectangle from '@/components/pages/bundles/FeatureRectangle';
 import Link from 'next/link';
 import PAGES from '@/config/routes';
+import MainLayout from '@/components/layouts/MainLayout';
 
 const BundlesPage: NextPage = () => {
 

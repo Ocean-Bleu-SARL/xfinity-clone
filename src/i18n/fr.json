@@ -6,6 +6,7 @@
         "cs": "Service client",
         "home": "Accueil",
         "call": "Appelez",
+        "account": "Mon compte",
         "moving": "Déménagement?"
     },
     "FindInternetComponent": {

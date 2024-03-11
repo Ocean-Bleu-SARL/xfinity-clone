@@ -36,8 +36,12 @@ const NavBar = () => {
       label: 'OB TV'
     },
     {
-      href: '/help',
+      href: PAGES.help,
       label: t('cs')
+    },
+    {
+      href: PAGES.account.index,
+      label: t('account')
     }
   ];
 
@@ -46,7 +50,7 @@ const NavBar = () => {
       <MenuComponent links={links} className={`${isOpen ? '' : 'hidden'}`} />
       <div className='flex justify-between items-center '>
         <div className='flex gap-2'>
-          <div className={`z-50 md:hidden ${isOpen?'fixed top-2 right-2':''}`}><Hamburger onToggle={() => setOpen(!isOpen)} /></div>
+          <div className={`z-50 md:hidden ${isOpen?'fixed top-2 left-[4.5%]':''}`}><Hamburger onToggle={() => setOpen(!isOpen)} /></div>
           <div className='flex gap-2 md:gap-4 items-center'>
             <h1 className='md:text-3xl font-bold font-crete '>OCEAN BLEU</h1>
             <div className='h-11 w-[1px] bg-white' />
@@ -68,8 +72,8 @@ const NavBar = () => {
       <div className="flex justify-between items-center mmd:hidden">
         <div className='flex gap-4'>
           {
-            links.map((link) => {
-              return <Link href={link.href} className={`${path === link.href ? 'text-onPrimary' : 'text-gray-400'} hover:underline font-bold`}>
+            links.map((link,index) => {
+              return <Link key={link+index.toString()} href={link.href} className={`${path === link.href ? 'text-onPrimary' : 'text-gray-400'} hover:underline font-bold`}>
                 {link.label}
               </Link>;
             })

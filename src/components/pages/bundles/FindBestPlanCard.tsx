@@ -16,7 +16,7 @@ const FindBestPlanCard: FC<FindBestPlanCardProps> = ({ className = '', green }) 
             <div className="flex h-fit items-center flex-col">
                 <div className={`w-full md:w-fit ${green?'bg-thirth':'bg-secondary'} px-5 py-8 rounded-tr-[20%] rounded-bl-[20%]`}>
                     <p className='text-2xl mb-8 font-bold text-white text-center'>{t('findBestPlan')}</p>
-                    <Input placeholder={c('FindInternetComponent.placeholder')} inputClassName='bg-white rounded-md md:w-[350px]' className='mb-5' />
+                    <Input placeholder={c('FindInternetComponent.placeholder')} inputclassname='bg-white rounded-md md:w-[350px]' className='mb-5' />
                     <button className='w-full font-bold text-base py-3 bg-white rounded-md text-primary'>{c('FindInternetComponent.shop')}</button>
                 </div>
             </div>

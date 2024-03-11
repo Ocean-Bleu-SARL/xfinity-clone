@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 import React from 'react';
-import MainLayout from '../layout';
+import MainLayout from '../../components/layouts/MainLayout';
 import FindBestPlanCard from '@/components/pages/bundles/FindBestPlanCard';
 import { useTranslations } from 'next-intl';
 
